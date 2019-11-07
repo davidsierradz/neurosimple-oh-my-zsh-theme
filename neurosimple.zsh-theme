@@ -17,7 +17,7 @@ function vi_mode_prompt_info() {
     NORMAL_MODE_INDICATOR="%{$FX[bold]$FG[001]%}NORMAL%{$FX[reset]%}"
   fi
   if [[ -z "$INSERT_MODE_INDICATOR" ]]; then
-    INSERT_MODE_INDICATOR="%{$FX[bold]$FG[008]%}INSERT%{$FX[reset]%}"
+    INSERT_MODE_INDICATOR=""
   fi
   if [[ -z "$VISUAL_MODE_INDICATOR" ]]; then
     VISUAL_MODE_INDICATOR="%{$FX[bold]$FG[214]%}VISUAL%{$FX[reset]%}"
